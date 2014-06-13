@@ -1,14 +1,14 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'nutritionix/version'
+require 'nutritionix-mod/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "nutritionix"
+  spec.name          = "nutritionix-mod"
   spec.version       = Nutritionix::VERSION
   spec.authors       = ["Fazle Taher"]
   spec.email         = ["ftaher@gmail.com"]
-  spec.description   = %q{Nutritionix API ruby wrapper}
+  spec.description   = %q{Nutritionix API ruby wrapper, with API 1.1 as default}
   spec.summary       = %q{ruby gem for nutritionix API}
   spec.homepage      = ""
   spec.license       = "MIT"
